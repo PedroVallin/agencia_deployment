@@ -1,0 +1,37 @@
+//- <h1>Hola</h1>  esto sería en HTML
+
+//- En PUG sería de la siguiente manera
+//- h1 hola
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a faucibus purus. Aenean gravida elit fermentum lacus laoreet pulvinar. Maecenas posuere libero nisl, quis tristique quam tristique id. Donec condimentum eros ornare molestie interdum. Curabitur scelerisque volutpat magna fringilla pulvinar. Sed pulvinar scelerisque lacus, eget tristique elit varius et. Phasellus sagittis faucibus urna, eu sodales nisl tincidunt ac.
+
+                p Etiam scelerisque bibendum odio nec ultricies. Duis felis arcu, feugiat id dignissim non, tempor a quam. Curabitur lacinia libero nibh, vel fermentum risus tincidunt ac. Aliquam velit enim, condimentum sit amet elementum a, ultrices ullamcorper turpis. Ut neque lectus, auctor et felis et, molestie varius libero. Vestibulum ullamcorper hendrerit justo, et pretium lacus volutpat vel. Nunc hendrerit urna at odio tristique rhoncus. Suspendisse ut urna lobortis, mattis risus vitae, pulvinar arcu. Mauris dignissim pretium diam vitae accumsan. Nullam quis sodales felis, sit amet venenatis nibh. Morbi risus neque, faucibus eu tincidunt ut, tristique non nisl. Integer euismod pharetra condimentum. Praesent convallis tortor quis aliquam placerat.
+
+                p Proin pharetra at ligula vel vehicula. Nullam quis consectetur justo. Sed a neque non leo auctor rutrum vel eu ex. Ut vestibulum diam nec leo varius semper. Donec a orci non sapien rhoncus tristique. Etiam interdum dapibus sapien, vel varius nunc malesuada id. Mauris nec congue velit, eu finibus erat. Donec lacinia at mauris vitae tempor. Maecenas eget erat eget arcu consequat finibus. Ut eu enim non leo gravida gravida. Quisque ornare feugiat nunc, at aliquet odio finibus ac. Cras eros ex, lacinia aliquet consequat eget, pellentesque ut felis. Nulla ac consectetur orci. 
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fuid mb-4")
+                    h2.mb4 Seguridad 
+                    p Proin pharetra at ligula vel vehicula. Nullam quis consectetur justo. Sed a neque non leo auctor rutrum vel eu ex. 
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fuid mb-4")
+                    h2.mb4 Mejores Destinos 
+                    p Proin pharetra at ligula vel vehicula. Nullam quis consectetur justo. Sed a neque non leo auctor rutrum vel eu ex. 
+                
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fuid mb-4")
+                    h2.mb4 Los Mejores Precios 
+                    p Proin pharetra at ligula vel vehicula. Nullam quis consectetur justo. Sed a neque non leo auctor rutrum vel eu ex. 
